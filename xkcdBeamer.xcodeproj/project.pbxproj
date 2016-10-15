@@ -12,6 +12,8 @@
 		D7A69F671DB1758C0057EF6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A69F651DB1758C0057EF6F /* Main.storyboard */; };
 		D7A69F691DB1758C0057EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A69F681DB1758C0057EF6F /* Assets.xcassets */; };
 		D7A69F6C1DB1758C0057EF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A69F6A1DB1758C0057EF6F /* LaunchScreen.storyboard */; };
+		D7A69F741DB17C590057EF6F /* xkcd-splash.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A69F731DB17C590057EF6F /* xkcd-splash.png */; };
+		D7A69F761DB1D05A0057EF6F /* comicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A69F751DB1D05A0057EF6F /* comicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D7A69F681DB1758C0057EF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7A69F6B1DB1758C0057EF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7A69F6D1DB1758C0057EF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A69F731DB17C590057EF6F /* xkcd-splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xkcd-splash.png"; sourceTree = "<group>"; };
+		D7A69F751DB1D05A0057EF6F /* comicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = comicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				D7A69F651DB1758C0057EF6F /* Main.storyboard */,
 				D7A69F681DB1758C0057EF6F /* Assets.xcassets */,
 				D7A69F6A1DB1758C0057EF6F /* LaunchScreen.storyboard */,
+				D7A69F731DB17C590057EF6F /* xkcd-splash.png */,
 				D7A69F6D1DB1758C0057EF6F /* Info.plist */,
+				D7A69F751DB1D05A0057EF6F /* comicViewController.swift */,
 			);
 			path = xkcdBeamer;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A69F741DB17C590057EF6F /* xkcd-splash.png in Resources */,
 				D7A69F6C1DB1758C0057EF6F /* LaunchScreen.storyboard in Resources */,
 				D7A69F691DB1758C0057EF6F /* Assets.xcassets in Resources */,
 				D7A69F671DB1758C0057EF6F /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A69F641DB1758C0057EF6F /* ViewController.swift in Sources */,
+				D7A69F761DB1D05A0057EF6F /* comicViewController.swift in Sources */,
 				D7A69F621DB1758C0057EF6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
