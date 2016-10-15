@@ -1,5 +1,5 @@
 //
-//  comicViewController.swift
+//  ComicViewController.swift
 //  xkcdBeamer
 //
 //  Created by Timothy Myers on 10/14/16.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class comicViewController: NSObject {
+class ComicViewController: UIViewController {
 
 }
